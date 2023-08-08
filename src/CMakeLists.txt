@@ -1,0 +1,7 @@
+add_subdirectory(lib)
+add_subdirectory(struct)
+add_subdirectory(devcfg)
+add_subdirectory(cli)
+if(ENABLE_QT)
+	add_subdirectory(qt)
+endif()

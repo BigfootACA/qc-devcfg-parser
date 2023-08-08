@@ -1,0 +1,16 @@
+# Copyright (C) 2023 ClassFun
+# This file is distributed under the same license as the qc-devfg-parser.
+# BigfootACA <bigfoot@classfun.cn>, 2023.
+
+msgid ""
+msgstr ""
+"Project-Id-Version: qc-devfg-parser\n"
+"Report-Msgid-Bugs-To: BigfootACA <bigfoot@classfun.cn>\n"
+"POT-Creation-Date: 2023-07-27 22:00+0800\n"
+"PO-Revision-Date: 2023-07-27 22:00+0800\n"
+"Last-Translator: BigfootACA <bigfoot@classfun.cn>\n"
+"Language-Team: BigfootACA <bigfoot@classfun.cn>\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"

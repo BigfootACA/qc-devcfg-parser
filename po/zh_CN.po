@@ -1,0 +1,803 @@
+# Copyright (C) 2023 ClassFun
+# This file is distributed under the same license as the qc-devfg-parser
+# BigfootACA <bigfoot@classfun.cn>, 2023.
+
+msgid ""
+msgstr ""
+"Project-Id-Version: qc-devfg-parser\n"
+"Report-Msgid-Bugs-To: BigfootACA <bigfoot@classfun.cn>\n"
+"POT-Creation-Date: 2023-07-27 22:00+0800\n"
+"PO-Revision-Date: 2023-07-27 22:00+0800\n"
+"Last-Translator: BigfootACA <bigfoot@classfun.cn>\n"
+"Language-Team: BigfootACA <bigfoot@classfun.cn>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "section %zu not loadable"
+msgstr "段%zu不可加载"
+
+msgid "section %zu not readable"
+msgstr "段%zu不可读"
+
+msgid "section %zu address too small"
+msgstr "段%zu地址过小"
+
+msgid "alloc devcfg failed"
+msgstr "分配devcfg失败"
+
+msgid "section %u out of file"
+msgstr "段%zu超出文件"
+
+msgid "alloc devcfg section failed"
+msgstr "分配devcfg段失败"
+
+msgid "read devcfg target info failed"
+msgstr "读devcfg目标信息失败"
+
+msgid "alloc targets failed"
+msgstr "分配目标失败"
+
+msgid "alloc devcfg device failed"
+msgstr "分配devcfg设备失败"
+
+msgid "invalid devcfg string device name"
+msgstr "无效的devcfg字符串设备名称"
+
+msgid "read devcfg string device name failed"
+msgstr "读取devcfg字符串设备名称失败"
+
+msgid "read devcfg prop byte array len failed"
+msgstr "读取devcfg配置项字节数组长度失败"
+
+msgid "unknown devcfg prop type %d"
+msgstr "未知的devcfg配置类型%d"
+
+msgid "invalid devcfg props binary"
+msgstr "无效的devcfg配置项二进制"
+
+msgid "read devcfg prop first number failed"
+msgstr "读取devcfg配置项的第一个数字失败"
+
+msgid "alloc props failed"
+msgstr "分配配置项失败"
+
+msgid "read devcfg prop name failed"
+msgstr "读取devcfg配置项名称失败"
+
+msgid "Prop %s type %s"
+msgstr "配置项 %s 类型 %s"
+
+msgid "(Unknown)"
+msgstr "(未知)"
+
+msgid "Device %s"
+msgstr "设备 %s"
+
+msgid "Target SOC %u (0x%x)"
+msgstr "目标SOC %u (0x%x)"
+
+msgid "Section %u"
+msgstr "段 %u"
+
+msgid "Dump of devcfg size %zu bytes"
+msgstr "查看devcfg大小%zu字节"
+
+msgid "alloc devcfg target failed"
+msgstr "分配devcfg目标失败"
+
+msgid "invalid devcfg props"
+msgstr "无效的devcfg配置项"
+
+msgid "invalid devcfg prop"
+msgstr "无效的devcfg配置项"
+
+msgid "read devcfg props failed"
+msgstr "读取devcfg配置项失败"
+
+msgid "read devcfg props dir failed"
+msgstr "读取devcfg配置项索引失败"
+
+msgid "alloc devices failed"
+msgstr "分配设备失败"
+
+msgid "read devcfg string device failed"
+msgstr "读取devcfg字符串设备失败"
+
+msgid "read devcfg uint32 array ptr length failed"
+msgstr "读取devcfg 32位整型数组指针长度失败"
+
+msgid "read devcfg byte array ptr length failed"
+msgstr "读取devcfg字节数组指针长度失败"
+
+msgid "read devcfg struct tbl failed"
+msgstr "读取devcfg结构体描述失败"
+
+msgid "struct tbl pointer size mismatch"
+msgstr "结构体描述指针大小不匹配"
+
+msgid "read devcfg byte array len failed"
+msgstr "读取devcfg字节数组长度失败"
+
+msgid "read devcfg uint32 value failed"
+msgstr "读取devcfg 32位整型值失败"
+
+msgid "read devcfg uint32 array offset failed"
+msgstr "读取devcfg 32位整型数组偏移量失败"
+
+msgid "read devcfg value offset failed"
+msgstr "读取devcfg值偏移量失败"
+
+msgid "read devcfg uint32 array length failed"
+msgstr "读取devcfg 32位整型数组长度失败"
+
+msgid "alloc number array failed"
+msgstr "分配数字数组失败"
+
+msgid "read devcfg uint32 array failed"
+msgstr "读取devcfg 32位整型数组失败"
+
+msgid "alloc devcfg prop failed"
+msgstr "分配devcfg配置项失败"
+
+msgid "ELF64 too short"
+msgstr "ELF64文件太短"
+
+msgid "Unknown ELF64 version: 0x%02x"
+msgstr "未知的ELF64版本: 0x%02x"
+
+msgid "No any ELF64 program header entry found"
+msgstr "没有找到任何ELF64程序头"
+
+msgid "Invalid ELF64 program header entry size: %u bytes (need %zu bytes)"
+msgstr "无效的ELF64程序头项大小: %u字节 (需要%zu字节)"
+
+msgid "ELF64 program header out of file (end %zu bytes, file %zu bytes)"
+msgstr "ELF64程序头超出文件(结束于%zu字节，文件大小%zu字节)"
+
+msgid "ELF32 too short"
+msgstr "ELF32文件太短"
+
+msgid "Unknown ELF32 version: 0x%02x"
+msgstr "未知的ELF32版本: 0x%02x"
+
+msgid "No any ELF32 program header entry found"
+msgstr "没有找到任何ELF32程序头"
+
+msgid "Invalid ELF32 program header entry size: %u bytes (need %zu bytes)"
+msgstr "无效的ELF32程序头项大小: %u字节 (需要%zu字节)"
+
+msgid "ELF32 program header out of file (end %zu bytes, file %zu bytes)"
+msgstr "ELF32程序头超出文件(结束于%zu字节，文件大小%zu字节)"
+
+msgid "ELF too short"
+msgstr "ELF文件太短"
+
+msgid "Bad ELF magic"
+msgstr "无效的ELF魔数"
+
+msgid "Unknown ELF version: 0x%02x"
+msgstr "未知的ELF版本: 0x%02x"
+
+msgid "Unsupported ELF class %u in %zu-bit cpu"
+msgstr "ELF类%u不支持当前的%zu位CPU"
+
+msgid "Unknown ELF class: 0x%02x"
+msgstr "未知的ELF类: 0x%02x"
+
+msgid "devcfg already loaded"
+msgstr "devcfg已经加载"
+
+msgid "Usage: qc-devcfg-parser <DEVCFG>"
+msgstr "用法: qc-devcfg-parser <DEVCFG>"
+
+msgid "empty file"
+msgstr "文件为空"
+
+msgid "file too large (%zu bytes)"
+msgstr "文件太大(%zu字节)"
+
+msgid "allocate %zu bytes failed"
+msgstr "分配%zu字节失败"
+
+msgid "read %zu bytes failed"
+msgstr "读取%zu字节失败"
+
+msgid "read file with %p failed"
+msgstr "从文件对象%p读取失败"
+
+msgid "read file with %p size %zu bytes to %p"
+msgstr "从文件对象%p读取文件大小%zu字节到缓冲区%p"
+
+msgid "open %s failed"
+msgstr "打开%s失败"
+
+msgid "read file %s failed"
+msgstr "读取文件%s失败"
+
+msgid "read file %s size %zu bytes to %p"
+msgstr "从文件%s读取文件大小%zu字节到缓冲区%p"
+
+msgid "Null"
+msgstr "无"
+
+msgid "Loadable"
+msgstr "可加载"
+
+msgid "Dynamic"
+msgstr "动态"
+
+msgid "Interpreter"
+msgstr "链接器"
+
+msgid "Note"
+msgstr "注释"
+
+msgid "Shlib"
+msgstr "共享库"
+
+msgid "Program header"
+msgstr "程序头"
+
+msgid "Thread-local storage"
+msgstr "线程本地存储"
+
+msgid "GNU EH_FRAME"
+msgstr "GNU栈回溯"
+
+msgid "GNU Stack"
+msgstr "GNU栈"
+
+msgid "GNU RELRO"
+msgstr "GNU重定向后只读"
+
+msgid "GNU Property"
+msgstr "GNU配置项"
+
+msgid "SUN BSS"
+msgstr "SUN未初始化数据"
+
+msgid "SUN Stack"
+msgstr "SUN栈"
+
+msgid "String Pointer"
+msgstr "字符串指针"
+
+msgid "UINT32"
+msgstr "32位整型"
+
+msgid "Byte Array"
+msgstr "字节数组"
+
+msgid "Byte Array Pointer"
+msgstr "字节数组指针"
+
+msgid "UINT32 Array Pointer"
+msgstr "32位整型数组指针"
+
+msgid "Struct Pointer"
+msgstr "结构体指针"
+
+msgid "End"
+msgstr "结束"
+
+msgid "Target SOC %1"
+msgstr "目标SOC %1"
+
+msgid "Section %1"
+msgstr "段%1"
+
+msgid "Error occurred while loading devcfg"
+msgstr "加载devcfg过程中发生错误"
+
+msgid "%1 bytes (0x%2)"
+msgstr "%1字节(0x%2)"
+
+msgid "New devcfg instance failed"
+msgstr "创建devcfg实例失败"
+
+msgid "Open devcfg failed"
+msgstr "打开devcfg失败"
+
+msgid "Error occurred while opening devcfg"
+msgstr "读取devcfg过程中发生错误"
+
+msgid ""
+"All devcfg files (*.mbn *.img *.bin *.elf);;"
+"Qualcomm MBN (*.mbn);;"
+"Disk Image (*.img);;"
+"ELF File (*.elf);;"
+"Binary File (*.bin);;"
+"Any File (*);;"
+msgstr ""
+"所有devcfg文件 (*.mbn *.img *.bin *.elf);;"
+"高通MBN (*.mbn);;"
+"磁盘镜像 (*.img);;"
+"ELF文件 (*.elf);;"
+"二进制文件 (*.bin);;"
+"任意文件 (*);;"
+
+msgid ""
+"Text File (*.txt);;"
+"Any File (*);;"
+msgstr ""
+"文本文件 (*.txt);;"
+"任意文件 (*);;"
+
+msgid ""
+"Binary File (*.bin);;"
+"Any File (*);;"
+msgstr ""
+"二进制文件 (*.bin);;"
+"任意文件 (*);;"
+
+msgid "No data available for current property"
+msgstr "当前配置项无可用数据"
+
+msgid "Open file %1 failed: %2"
+msgstr "打开文件%1失败: %2"
+
+msgid "Write file %1 failed: %2"
+msgstr "写入文件%1失败: %2"
+
+msgid "Save file failed: %1"
+msgstr "保存文件失败: %1"
+
+msgid "changed language to %s"
+msgstr "已更改语言至%s"
+
+msgid "No any language found"
+msgstr "找不到任何语言"
+
+msgid "Qualcomm DEVCFG Parser"
+msgstr "高通DEVCFG分析器"
+
+msgid "Open"
+msgstr "打开"
+
+msgid "Close"
+msgstr "关闭"
+
+msgid "Reload"
+msgstr "重新加载"
+
+msgid "Log"
+msgstr "日志"
+
+msgid "Language"
+msgstr "语言"
+
+msgid "About"
+msgstr "关于"
+
+msgid "Section:"
+msgstr "段:"
+
+msgid "Target:"
+msgstr "目标:"
+
+msgid "Device:"
+msgstr "设备:"
+
+msgid "Property:"
+msgstr "配置项:"
+
+msgid "Data Type:"
+msgstr "数据类型:"
+
+msgid "Data Length:"
+msgstr "数据长度:"
+
+msgid "View:"
+msgstr "视图:"
+
+msgid "Value:"
+msgstr "值:"
+
+msgid "Struct View"
+msgstr "结构体视图"
+
+msgid "Save Text"
+msgstr "保存文本文件"
+
+msgid "Save Binary"
+msgstr "保存二进制文件"
+
+msgid "Copy"
+msgstr "复制"
+
+msgid "No log instance"
+msgstr "无日志实例"
+
+msgid ""
+"Log File (*.log);;"
+"Text File (*.txt);;"
+"Any File (*);;"
+msgstr ""
+"日志文件 (*.log);;"
+"文本文件 (*.txt);;"
+"任意文件 (*);;"
+
+msgid "Save log failed: %1"
+msgstr "保存日志失败: %1"
+
+msgid "Log Viewer"
+msgstr "日志查看器"
+
+msgid "Save"
+msgstr "保存"
+
+msgid "Show Log"
+msgstr "查看日志"
+
+msgid "Error"
+msgstr "错误"
+
+msgid "Fatal"
+msgstr "致命错误"
+
+msgid "devcfg parser initialized"
+msgstr "devcfg解析器已初始化"
+
+msgid "open file %s from commandline argument"
+msgstr "从命令行参数打开文件%s"
+
+msgid "error while compile regex \"%s\": %s"
+msgstr "编译正则表达式\"%s\"时出错: %s"
+
+"invalid escape sequence"
+"invalid quantifier"
+"unterminated escape sequence"
+"invalid escape character"
+"numeric overflow"
+"numeric overflow"
+"too many character classes"
+"invalid character class range"
+"too many character class ranges"
+"unterminated character class"
+"infinite loop matching the empty string"
+"invalid back-reference"
+"too many captures"
+"unmatched '('"
+"unmatched '('"
+"unmatched '('"
+"unmatched '('"
+"syntax error"
+"invalid quantifier"
+"program too large"
+"cannot allocate regular expression"
+"cannot allocate regular expression parse list"
+"unmatched ')'"
+"syntax error"
+"program too large"
+
+msgid "UTF16 String"
+msgstr "UTF16字符串"
+
+msgid "UTF8 String"
+msgstr "UTF8字符串"
+
+msgid "Binary Data"
+msgstr "二进制数据"
+
+msgid "8-bit Boolean"
+msgstr "8位整型布尔值"
+
+msgid "8-bit Binary number"
+msgstr "8位整型二进制数字"
+
+msgid "8-bit Octal number"
+msgstr "8位整型八进制数字"
+
+msgid "8-bit Hexadecimal number"
+msgstr "8位整型十六进制数字"
+
+msgid "8-bit Decimal number"
+msgstr "8位整型十进制数字"
+
+msgid "16-bit Boolean"
+msgstr "16位整型布尔值"
+
+msgid "16-bit Binary number"
+msgstr "16位整型二进制数字"
+
+msgid "16-bit Octal number"
+msgstr "16位整型八进制数字"
+
+msgid "16-bit Hexadecimal number"
+msgstr "16位整型十六进制数字"
+
+msgid "16-bit Decimal number"
+msgstr "16位整型十进制数字"
+
+msgid "32-bit Boolean"
+msgstr "32位整型布尔值"
+
+msgid "32-bit Binary number"
+msgstr "32位整型二进制数字"
+
+msgid "32-bit Octal number"
+msgstr "32位整型八进制数字"
+
+msgid "32-bit Hexadecimal number"
+msgstr "32位整型十六进制数字"
+
+msgid "32-bit Decimal number"
+msgstr "32位整型十进制数字"
+
+msgid "64-bit Boolean"
+msgstr "64位整型布尔值"
+
+msgid "64-bit Binary number"
+msgstr "64位整型二进制数字"
+
+msgid "64-bit Octal number"
+msgstr "64位整型八进制数字"
+
+msgid "64-bit Hexadecimal number"
+msgstr "64位整型十六进制数字"
+
+msgid "64-bit Decimal number"
+msgstr "64位整型十进制数字"
+
+msgid "Unsigned 8-bit Boolean"
+msgstr "无符号8位整型布尔值"
+
+msgid "Unsigned 8-bit Binary number"
+msgstr "无符号8位整型二进制数字"
+
+msgid "Unsigned 8-bit Octal number"
+msgstr "无符号8位整型八进制数字"
+
+msgid "Unsigned 8-bit Hexadecimal number"
+msgstr "无符号8位整型十六进制数字"
+
+msgid "Unsigned 8-bit Decimal number"
+msgstr "无符号8位整型十进制数字"
+
+msgid "Unsigned 16-bit Boolean"
+msgstr "无符号16位整型布尔值"
+
+msgid "Unsigned 16-bit Binary number"
+msgstr "无符号16位整型二进制数字"
+
+msgid "Unsigned 16-bit Octal number"
+msgstr "无符号16位整型八进制数字"
+
+msgid "Unsigned 16-bit Hexadecimal number"
+msgstr "无符号16位整型十六进制数字"
+
+msgid "Unsigned 16-bit Decimal number"
+msgstr "无符号16位整型十进制数字"
+
+msgid "Unsigned 32-bit Boolean"
+msgstr "无符号32位整型布尔值"
+
+msgid "Unsigned 32-bit Binary number"
+msgstr "无符号32位整型二进制数字"
+
+msgid "Unsigned 32-bit Octal number"
+msgstr "无符号32位整型八进制数字"
+
+msgid "Unsigned 32-bit Hexadecimal number"
+msgstr "无符号32位整型十六进制数字"
+
+msgid "Unsigned 32-bit Decimal number"
+msgstr "无符号32位整型十进制数字"
+
+msgid "Unsigned 64-bit Boolean"
+msgstr "无符号64位整型布尔值"
+
+msgid "Unsigned 64-bit Binary number"
+msgstr "无符号64位整型二进制数字"
+
+msgid "Unsigned 64-bit Octal number"
+msgstr "无符号64位整型八进制数字"
+
+msgid "Unsigned 64-bit Hexadecimal number"
+msgstr "无符号64位整型十六进制数字"
+
+msgid "Unsigned 64-bit Decimal number"
+msgstr "无符号64位整型十进制数字"
+
+msgid "8-bit Boolean array"
+msgstr "8位整型布尔值数组"
+
+msgid "8-bit Binary number array"
+msgstr "8位整型二进制数字数组"
+
+msgid "8-bit Octal number array"
+msgstr "8位整型八进制数字数组"
+
+msgid "8-bit Hexadecimal number array"
+msgstr "8位整型十六进制数字数组"
+
+msgid "8-bit Decimal number array"
+msgstr "8位整型十进制数字数组"
+
+msgid "16-bit Boolean array"
+msgstr "16位整型布尔值数组"
+
+msgid "16-bit Binary number array"
+msgstr "16位整型二进制数字数组"
+
+msgid "16-bit Octal number array"
+msgstr "16位整型八进制数字数组"
+
+msgid "16-bit Hexadecimal number array"
+msgstr "16位整型十六进制数字数组"
+
+msgid "16-bit Decimal number array"
+msgstr "16位整型十进制数字数组"
+
+msgid "32-bit Boolean array"
+msgstr "32位整型布尔值数组"
+
+msgid "32-bit Binary number array"
+msgstr "32位整型二进制数字数组"
+
+msgid "32-bit Octal number array"
+msgstr "32位整型八进制数字数组"
+
+msgid "32-bit Hexadecimal number array"
+msgstr "32位整型十六进制数字数组"
+
+msgid "32-bit Decimal number array"
+msgstr "32位整型十进制数字数组"
+
+msgid "64-bit Boolean array"
+msgstr "64位整型布尔值数组"
+
+msgid "64-bit Binary number array"
+msgstr "64位整型二进制数字数组"
+
+msgid "64-bit Octal number array"
+msgstr "64位整型八进制数字数组"
+
+msgid "64-bit Hexadecimal number array"
+msgstr "64位整型十六进制数字数组"
+
+msgid "64-bit Decimal number array"
+msgstr "64位整型十进制数字数组"
+
+msgid "Unsigned 8-bit Boolean array"
+msgstr "无符号8位整型布尔值数组"
+
+msgid "Unsigned 8-bit Binary number array"
+msgstr "无符号8位整型二进制数字数组"
+
+msgid "Unsigned 8-bit Octal number array"
+msgstr "无符号8位整型八进制数字数组"
+
+msgid "Unsigned 8-bit Hexadecimal number array"
+msgstr "无符号8位整型十六进制数字数组"
+
+msgid "Unsigned 8-bit Decimal number array"
+msgstr "无符号8位整型十进制数字数组"
+
+msgid "Unsigned 16-bit Boolean array"
+msgstr "无符号16位整型布尔值数组"
+
+msgid "Unsigned 16-bit Binary number array"
+msgstr "无符号16位整型二进制数字数组"
+
+msgid "Unsigned 16-bit Octal number array"
+msgstr "无符号16位整型八进制数字数组"
+
+msgid "Unsigned 16-bit Hexadecimal number array"
+msgstr "无符号16位整型十六进制数字数组"
+
+msgid "Unsigned 16-bit Decimal number array"
+msgstr "无符号16位整型十进制数字数组"
+
+msgid "Unsigned 32-bit Boolean array"
+msgstr "无符号32位整型布尔值数组"
+
+msgid "Unsigned 32-bit Binary number array"
+msgstr "无符号32位整型二进制数字数组"
+
+msgid "Unsigned 32-bit Octal number array"
+msgstr "无符号32位整型八进制数字数组"
+
+msgid "Unsigned 32-bit Hexadecimal number array"
+msgstr "无符号32位整型十六进制数字数组"
+
+msgid "Unsigned 32-bit Decimal number array"
+msgstr "无符号32位整型十进制数字数组"
+
+msgid "Unsigned 64-bit Boolean array"
+msgstr "无符号64位整型布尔值数组"
+
+msgid "Unsigned 64-bit Binary number array"
+msgstr "无符号64位整型二进制数字数组"
+
+msgid "Unsigned 64-bit Octal number array"
+msgstr "无符号64位整型八进制数字数组"
+
+msgid "Unsigned 64-bit Hexadecimal number array"
+msgstr "无符号64位整型十六进制数字数组"
+
+msgid "Unsigned 64-bit Decimal number array"
+msgstr "无符号64位整型十进制数字数组"
+
+msgid "File Offset"
+msgstr "文件偏移量"
+
+msgid "Load Address"
+msgstr "加载地址"
+
+msgid "invalid escape sequence"
+msgstr "无效的转移序列"
+
+msgid "invalid quantifier"
+msgstr "无效量词"
+
+msgid "unterminated escape sequence"   
+msgstr "未结束的转移序列"
+
+msgid "invalid escape character"
+msgstr "无效的转义字符"
+
+msgid "numeric overflow"
+msgstr "数字溢出"
+
+msgid "too many character classes"
+msgstr "字符类过多"
+
+msgid "invalid character class range"
+msgstr "无效的字符类范围"
+
+msgid "too many character class ranges"
+msgstr "字符类范围过多"
+
+msgid "unterminated character class"
+msgstr "未结束的字符类"
+
+msgid "infinite loop matching the empty string"
+msgstr "无限循环匹配空字符串"
+
+msgid "invalid back-reference"
+msgstr "无效的反向引用"
+
+msgid "too many captures"
+msgstr "捕获次数过多"
+
+msgid "unmatched '('"
+msgstr "未匹配的'('"
+
+msgid "syntax error"
+msgstr "语法错误"
+
+msgid "program too large"
+msgstr "程序过大"
+
+msgid "cannot allocate regular expression"
+msgstr "无法分配正则表达式"
+
+msgid "cannot allocate regular expression parse list"
+msgstr "无法分配正则表达式解析列表"
+
+msgid "unmatched ')'"
+msgstr "未匹配的')'"
+
+msgid "property not a struct pointer"
+msgstr "配置项不是一个结构体指针"
+
+msgid "duplicate struct view instance instance"
+msgstr "重复的结构体视图实例"
+
+msgid "property struct not supported"
+msgstr "配置项的结构体不支持"
+
+msgid "request read 0x%zx out of devcfg (require %zu bytes > available %zu bytes)"
+msgstr "请求读取0x%zx超出devcfg (要求%zu字节 > 可用%zu字节)"
+
+msgid "get file offset of pointer 0x%zx failed"
+msgstr "获取指针0x%zx的文件偏移量失败"
+
+msgid "address 0x%zx not found in devcfg elf"
+msgstr "devcfg elf中不存在地址0x%zx"
+
+msgid "Cancel"
+msgstr "取消"

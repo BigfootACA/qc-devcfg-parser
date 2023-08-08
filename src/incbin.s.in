@@ -1,0 +1,9 @@
+.section .rodata
+.balign 8
+.globl %SYMBOL%
+%SYMBOL%:
+	.quad 2f - 1f
+1:
+	.incbin "%FILE%"
+2:
+.balign 8
